@@ -43,3 +43,11 @@ A simple setup would be:
 For both interfaces:
 - CTRLA.ENABLE = 0x1 (enables interface - page #463 and #511)
 
+## Protocol Diagram
+
+A pseudo-code simulating some interaction between SPI and I2C is available in this repository.
+
+Below it is possible to understand in a diagram how the communication could happen.
+
+![Alt-text](https://github.com/entiredrop/atsamdsercom/blob/master/ProtocoDiagram.png?raw=true)
+
